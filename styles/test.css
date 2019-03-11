@@ -1,0 +1,45 @@
+body,html {
+	background-color: #efefef;
+	color: #004a7c;
+	font-family: 'Raleway', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.wrapper {
+	display: block;
+	border: solid black 1px;
+	width:50%;
+	padding:5px;
+	margin:auto;
+
+}
+
+.content {
+	width:100%;
+	display:inline-block;
+}
+
+.container {
+	float:left;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.container1 {
+
+	float:right;
+	padding: 5px;
+	background-color: #fff6c9;
+}
+
+.container:hover {
+	cursor: pointer;
+	border: solid 1px red;
+}
+
+.container1:hover {
+	cursor: pointer;
+	border: solid 1px blue;
+}
