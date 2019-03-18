@@ -13,7 +13,17 @@ body,html {
 	width:50%;
 	padding:5px;
 	margin:auto;
+	clear: both;
+	background-color: #fff;
 
+}
+
+/* Clearfix - Kada imamo wrapper i u njemu div-ove sa float */
+.wrapper::after {
+	content:" ";
+	clear:both;
+	display: block;
+	visibility: none;
 }
 
 .content {
